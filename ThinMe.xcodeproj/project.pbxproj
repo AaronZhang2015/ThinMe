@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B5C0BD31A3B225F00EB3154 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C0BD21A3B225F00EB3154 /* AppDelegate.swift */; };
+		6B5C0BD51A3B225F00EB3154 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C0BD41A3B225F00EB3154 /* ViewController.swift */; };
+		6B5C0BD81A3B225F00EB3154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B5C0BD61A3B225F00EB3154 /* Main.storyboard */; };
+		6B5C0BDA1A3B225F00EB3154 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B5C0BD91A3B225F00EB3154 /* Images.xcassets */; };
+		6B5C0BDD1A3B225F00EB3154 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B5C0BDB1A3B225F00EB3154 /* LaunchScreen.xib */; };
+		6B5C0BE91A3B226000EB3154 /* ThinMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C0BE81A3B226000EB3154 /* ThinMeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B5C0BE31A3B225F00EB3154 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B5C0BC51A3B225F00EB3154 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B5C0BCC1A3B225F00EB3154;
+			remoteInfo = ThinMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B5C0BCD1A3B225F00EB3154 /* ThinMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B5C0BD11A3B225F00EB3154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B5C0BD21A3B225F00EB3154 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B5C0BD41A3B225F00EB3154 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B5C0BD71A3B225F00EB3154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B5C0BD91A3B225F00EB3154 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6B5C0BDC1A3B225F00EB3154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6B5C0BE21A3B225F00EB3154 /* ThinMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThinMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B5C0BE71A3B226000EB3154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B5C0BE81A3B226000EB3154 /* ThinMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinMeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B5C0BCA1A3B225F00EB3154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B5C0BDF1A3B225F00EB3154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B5C0BC41A3B225F00EB3154 = {
+			isa = PBXGroup;
+			children = (
+				6B5C0BCF1A3B225F00EB3154 /* ThinMe */,
+				6B5C0BE51A3B226000EB3154 /* ThinMeTests */,
+				6B5C0BCE1A3B225F00EB3154 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B5C0BCE1A3B225F00EB3154 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0BCD1A3B225F00EB3154 /* ThinMe.app */,
+				6B5C0BE21A3B225F00EB3154 /* ThinMeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B5C0BCF1A3B225F00EB3154 /* ThinMe */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0BD21A3B225F00EB3154 /* AppDelegate.swift */,
+				6B5C0BD41A3B225F00EB3154 /* ViewController.swift */,
+				6B5C0BD61A3B225F00EB3154 /* Main.storyboard */,
+				6B5C0BD91A3B225F00EB3154 /* Images.xcassets */,
+				6B5C0BDB1A3B225F00EB3154 /* LaunchScreen.xib */,
+				6B5C0BD01A3B225F00EB3154 /* Supporting Files */,
+			);
+			path = ThinMe;
+			sourceTree = "<group>";
+		};
+		6B5C0BD01A3B225F00EB3154 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0BD11A3B225F00EB3154 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B5C0BE51A3B226000EB3154 /* ThinMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0BE81A3B226000EB3154 /* ThinMeTests.swift */,
+				6B5C0BE61A3B226000EB3154 /* Supporting Files */,
+			);
+			path = ThinMeTests;
+			sourceTree = "<group>";
+		};
+		6B5C0BE61A3B226000EB3154 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0BE71A3B226000EB3154 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B5C0BCC1A3B225F00EB3154 /* ThinMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B5C0BEC1A3B226000EB3154 /* Build configuration list for PBXNativeTarget "ThinMe" */;
+			buildPhases = (
+				6B5C0BC91A3B225F00EB3154 /* Sources */,
+				6B5C0BCA1A3B225F00EB3154 /* Frameworks */,
+				6B5C0BCB1A3B225F00EB3154 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThinMe;
+			productName = ThinMe;
+			productReference = 6B5C0BCD1A3B225F00EB3154 /* ThinMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B5C0BE11A3B225F00EB3154 /* ThinMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B5C0BEF1A3B226000EB3154 /* Build configuration list for PBXNativeTarget "ThinMeTests" */;
+			buildPhases = (
+				6B5C0BDE1A3B225F00EB3154 /* Sources */,
+				6B5C0BDF1A3B225F00EB3154 /* Frameworks */,
+				6B5C0BE01A3B225F00EB3154 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B5C0BE41A3B225F00EB3154 /* PBXTargetDependency */,
+			);
+			name = ThinMeTests;
+			productName = ThinMeTests;
+			productReference = 6B5C0BE21A3B225F00EB3154 /* ThinMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B5C0BC51A3B225F00EB3154 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ZhangMing;
+				TargetAttributes = {
+					6B5C0BCC1A3B225F00EB3154 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					6B5C0BE11A3B225F00EB3154 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 6B5C0BCC1A3B225F00EB3154;
+					};
+				};
+			};
+			buildConfigurationList = 6B5C0BC81A3B225F00EB3154 /* Build configuration list for PBXProject "ThinMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B5C0BC41A3B225F00EB3154;
+			productRefGroup = 6B5C0BCE1A3B225F00EB3154 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B5C0BCC1A3B225F00EB3154 /* ThinMe */,
+				6B5C0BE11A3B225F00EB3154 /* ThinMeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B5C0BCB1A3B225F00EB3154 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5C0BD81A3B225F00EB3154 /* Main.storyboard in Resources */,
+				6B5C0BDD1A3B225F00EB3154 /* LaunchScreen.xib in Resources */,
+				6B5C0BDA1A3B225F00EB3154 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B5C0BE01A3B225F00EB3154 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B5C0BC91A3B225F00EB3154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5C0BD51A3B225F00EB3154 /* ViewController.swift in Sources */,
+				6B5C0BD31A3B225F00EB3154 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B5C0BDE1A3B225F00EB3154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5C0BE91A3B226000EB3154 /* ThinMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B5C0BE41A3B225F00EB3154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B5C0BCC1A3B225F00EB3154 /* ThinMe */;
+			targetProxy = 6B5C0BE31A3B225F00EB3154 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B5C0BD61A3B225F00EB3154 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B5C0BD71A3B225F00EB3154 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B5C0BDB1A3B225F00EB3154 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B5C0BDC1A3B225F00EB3154 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B5C0BEA1A3B226000EB3154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B5C0BEB1A3B226000EB3154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B5C0BED1A3B226000EB3154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ThinMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B5C0BEE1A3B226000EB3154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ThinMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B5C0BF01A3B226000EB3154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ThinMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThinMe.app/ThinMe";
+			};
+			name = Debug;
+		};
+		6B5C0BF11A3B226000EB3154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ThinMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThinMe.app/ThinMe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B5C0BC81A3B225F00EB3154 /* Build configuration list for PBXProject "ThinMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B5C0BEA1A3B226000EB3154 /* Debug */,
+				6B5C0BEB1A3B226000EB3154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B5C0BEC1A3B226000EB3154 /* Build configuration list for PBXNativeTarget "ThinMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B5C0BED1A3B226000EB3154 /* Debug */,
+				6B5C0BEE1A3B226000EB3154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6B5C0BEF1A3B226000EB3154 /* Build configuration list for PBXNativeTarget "ThinMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B5C0BF01A3B226000EB3154 /* Debug */,
+				6B5C0BF11A3B226000EB3154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B5C0BC51A3B225F00EB3154 /* Project object */;
+}
