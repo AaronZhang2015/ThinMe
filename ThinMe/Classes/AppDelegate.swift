@@ -15,7 +15,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        var rootWireframe = TMRootWireframe()
+        var homeWireframe = TMHomeWireframe()
+        var messageListWireframe = TMMessageListWireframe()
+        var followListWireframe = TMFollowListWireframe()
+        var profileWireframe = TMProfileWireframe()
+        
+        rootWireframe.homeWireframe = homeWireframe
+        rootWireframe.messageListWireframe = messageListWireframe
+        rootWireframe.followListWireframe = followListWireframe
+        rootWireframe.profileWireframe = profileWireframe
+        
+        rootWireframe.configureDependencies(window!)
+        
         return true
     }
 

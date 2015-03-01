@@ -7,12 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B5C0BD31A3B225F00EB3154 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C0BD21A3B225F00EB3154 /* AppDelegate.swift */; };
-		6B5C0BD51A3B225F00EB3154 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C0BD41A3B225F00EB3154 /* ViewController.swift */; };
+		6B1CB4DE1A3C4A7400E3243A /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1CB4DA1A3C4A7400E3243A /* BaseNavigationController.swift */; };
+		6B1CB4DF1A3C4A7400E3243A /* BaseWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1CB4DC1A3C4A7400E3243A /* BaseWireframe.swift */; };
+		6B1CB4E01A3C4A7400E3243A /* TMRootWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1CB4DD1A3C4A7400E3243A /* TMRootWireframe.swift */; };
+		6B272C1A1A471BD7007351C0 /* AnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B272C191A471BD7007351C0 /* AnimatedTabBarController.swift */; };
+		6B272C1E1A471CFB007351C0 /* TableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B272C1D1A471CFB007351C0 /* TableDataSource.swift */; };
+		6B321E411AA2F1880089E785 /* TMShopListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B321E401AA2F1880089E785 /* TMShopListInteractor.swift */; };
+		6B321E431AA2F1AE0089E785 /* TMShopListViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B321E421AA2F1AE0089E785 /* TMShopListViewInterface.swift */; };
+		6B321E451AA2F1EC0089E785 /* TMShopListModuleInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B321E441AA2F1EC0089E785 /* TMShopListModuleInterface.swift */; };
+		6B321E471AA2F2220089E785 /* TMShopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B321E461AA2F2220089E785 /* TMShopModel.swift */; };
+		6B321E491AA2F2300089E785 /* TMShopListInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B321E481AA2F2300089E785 /* TMShopListInteractorIO.swift */; };
+		6B321E5A1AA307890089E785 /* TMShopListNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B321E591AA307890089E785 /* TMShopListNetworkManager.swift */; };
 		6B5C0BD81A3B225F00EB3154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B5C0BD61A3B225F00EB3154 /* Main.storyboard */; };
 		6B5C0BDA1A3B225F00EB3154 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B5C0BD91A3B225F00EB3154 /* Images.xcassets */; };
 		6B5C0BDD1A3B225F00EB3154 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B5C0BDB1A3B225F00EB3154 /* LaunchScreen.xib */; };
 		6B5C0BE91A3B226000EB3154 /* ThinMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C0BE81A3B226000EB3154 /* ThinMeTests.swift */; };
+		6B5C0C221A3B248B00EB3154 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C0BF31A3B248B00EB3154 /* AppDelegate.swift */; };
+		6B5C0C371A3B422000EB3154 /* TMProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C0C341A3B422000EB3154 /* TMProfileViewController.swift */; };
+		6B5C0C381A3B422000EB3154 /* TMProfileWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C0C361A3B422000EB3154 /* TMProfileWireframe.swift */; };
+		6B5C0C3A1A3B425500EB3154 /* TMProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C0C391A3B425500EB3154 /* TMProfileInteractor.swift */; };
+		6B5C0C3C1A3B426600EB3154 /* TMProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C0C3B1A3B426600EB3154 /* TMProfilePresenter.swift */; };
+		6B5C0C3E1A3B429100EB3154 /* TMFollowListWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C0C3D1A3B429100EB3154 /* TMFollowListWireframe.swift */; };
+		6B5C0C401A3B42B400EB3154 /* TMMessageListWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C0C3F1A3B42B400EB3154 /* TMMessageListWireframe.swift */; };
+		6B5C0C421A3B42C400EB3154 /* TMHomeWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C0C411A3B42C400EB3154 /* TMHomeWireframe.swift */; };
+		6B5C0C441A3B42DF00EB3154 /* TMMessageListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C0C431A3B42DF00EB3154 /* TMMessageListViewController.swift */; };
+		6B5C0C461A3B431A00EB3154 /* TMFollowListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C0C451A3B431A00EB3154 /* TMFollowListViewController.swift */; };
+		6B5C0C481A3B439F00EB3154 /* TMHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C0C471A3B439F00EB3154 /* TMHomeViewController.swift */; };
+		6B5C0C4F1A3B44D600EB3154 /* TMFollowListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C0C4E1A3B44D600EB3154 /* TMFollowListInteractor.swift */; };
+		6B5C0C511A3B44E900EB3154 /* TMFollowListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C0C501A3B44E900EB3154 /* TMFollowListPresenter.swift */; };
+		6B5C0C531A3B44FC00EB3154 /* TMMessageListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C0C521A3B44FC00EB3154 /* TMMessageListPresenter.swift */; };
+		6B5C0C551A3B450B00EB3154 /* TMMessageListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C0C541A3B450B00EB3154 /* TMMessageListInteractor.swift */; };
+		6B5C0C571A3B451800EB3154 /* TMHomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C0C561A3B451800EB3154 /* TMHomePresenter.swift */; };
+		6B5C0C591A3B452700EB3154 /* TMHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C0C581A3B452700EB3154 /* TMHomeInteractor.swift */; };
+		6BFF9FE11AA21863002F67A0 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFF9FE01AA21863002F67A0 /* BaseTableViewController.swift */; };
+		6BFF9FE31AA21885002F67A0 /* TMShopListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFF9FE21AA21885002F67A0 /* TMShopListViewController.swift */; };
+		6BFF9FE51AA218F7002F67A0 /* TMShopListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFF9FE41AA218F7002F67A0 /* TMShopListPresenter.swift */; };
+		6BFF9FE71AA21913002F67A0 /* TMShopListWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFF9FE61AA21913002F67A0 /* TMShopListWireframe.swift */; };
+		6BFF9FFC1AA21CB8002F67A0 /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFF9FF21AA21BDE002F67A0 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6BFFA0001AA21DF3002F67A0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFF9FFF1AA21DF3002F67A0 /* NetworkManager.swift */; };
+		6BFFA0121AA2224C002F67A0 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFFA0091AA221F1002F67A0 /* SwiftyJSON.framework */; };
+		6BFFA0131AA2224C002F67A0 /* SwiftyJSON.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFFA0091AA221F1002F67A0 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6BFFA0171AA2B2A1002F67A0 /* TMNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFFA0161AA2B2A1002F67A0 /* TMNetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,19 +58,139 @@
 			remoteGlobalIDString = 6B5C0BCC1A3B225F00EB3154;
 			remoteInfo = ThinMe;
 		};
+		6BFF9FF11AA21BDE002F67A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BFF9FEA1AA21BDE002F67A0 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		6BFF9FF31AA21BDE002F67A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BFF9FEA1AA21BDE002F67A0 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		6BFF9FF51AA21BDE002F67A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BFF9FEA1AA21BDE002F67A0 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		6BFF9FF71AA21BDE002F67A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BFF9FEA1AA21BDE002F67A0 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire OSX Tests";
+		};
+		6BFF9FF91AA21C47002F67A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BFF9FEA1AA21BDE002F67A0 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		6BFFA0081AA221F1002F67A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BFFA0011AA221F1002F67A0 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E4FEFDB19575BE100351305;
+			remoteInfo = "SwiftyJSON iOS";
+		};
+		6BFFA00A1AA221F1002F67A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BFFA0011AA221F1002F67A0 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E4FEFE619575BE100351305;
+			remoteInfo = SwiftyJSONTests;
+		};
+		6BFFA00C1AA221F1002F67A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BFFA0011AA221F1002F67A0 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 030B6CC31A6E16E800C2D4F1;
+			remoteInfo = "SwiftyJSON OSX";
+		};
+		6BFFA00E1AA221F1002F67A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BFFA0011AA221F1002F67A0 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 030B6CCD1A6E16E900C2D4F1;
+			remoteInfo = "SwiftyJSON OSXTests";
+		};
+		6BFFA0141AA2224C002F67A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BFFA0011AA221F1002F67A0 /* SwiftyJSON.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E4FEFDA19575BE100351305;
+			remoteInfo = "SwiftyJSON iOS";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6BFF9FFB1AA21C9B002F67A0 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6BFFA0131AA2224C002F67A0 /* SwiftyJSON.framework in Copy Frameworks */,
+				6BFF9FFC1AA21CB8002F67A0 /* Alamofire.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		6B1CB4D31A3C49B700E3243A /* Demo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Demo.playground; sourceTree = "<group>"; };
+		6B1CB4DA1A3C4A7400E3243A /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		6B1CB4DC1A3C4A7400E3243A /* BaseWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseWireframe.swift; sourceTree = "<group>"; };
+		6B1CB4DD1A3C4A7400E3243A /* TMRootWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMRootWireframe.swift; sourceTree = "<group>"; };
+		6B272C191A471BD7007351C0 /* AnimatedTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedTabBarController.swift; sourceTree = "<group>"; };
+		6B272C1D1A471CFB007351C0 /* TableDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableDataSource.swift; sourceTree = "<group>"; };
+		6B321E401AA2F1880089E785 /* TMShopListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMShopListInteractor.swift; sourceTree = "<group>"; };
+		6B321E421AA2F1AE0089E785 /* TMShopListViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMShopListViewInterface.swift; sourceTree = "<group>"; };
+		6B321E441AA2F1EC0089E785 /* TMShopListModuleInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMShopListModuleInterface.swift; sourceTree = "<group>"; };
+		6B321E461AA2F2220089E785 /* TMShopModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMShopModel.swift; sourceTree = "<group>"; };
+		6B321E481AA2F2300089E785 /* TMShopListInteractorIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMShopListInteractorIO.swift; sourceTree = "<group>"; };
+		6B321E591AA307890089E785 /* TMShopListNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMShopListNetworkManager.swift; sourceTree = "<group>"; };
 		6B5C0BCD1A3B225F00EB3154 /* ThinMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B5C0BD11A3B225F00EB3154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B5C0BD21A3B225F00EB3154 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6B5C0BD41A3B225F00EB3154 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6B5C0BD71A3B225F00EB3154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B5C0BD91A3B225F00EB3154 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6B5C0BDC1A3B225F00EB3154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6B5C0BE21A3B225F00EB3154 /* ThinMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThinMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B5C0BE71A3B226000EB3154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B5C0BE81A3B226000EB3154 /* ThinMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinMeTests.swift; sourceTree = "<group>"; };
+		6B5C0BF31A3B248B00EB3154 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B5C0C341A3B422000EB3154 /* TMProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMProfileViewController.swift; sourceTree = "<group>"; };
+		6B5C0C361A3B422000EB3154 /* TMProfileWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMProfileWireframe.swift; sourceTree = "<group>"; };
+		6B5C0C391A3B425500EB3154 /* TMProfileInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMProfileInteractor.swift; sourceTree = "<group>"; };
+		6B5C0C3B1A3B426600EB3154 /* TMProfilePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMProfilePresenter.swift; sourceTree = "<group>"; };
+		6B5C0C3D1A3B429100EB3154 /* TMFollowListWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMFollowListWireframe.swift; sourceTree = "<group>"; };
+		6B5C0C3F1A3B42B400EB3154 /* TMMessageListWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMMessageListWireframe.swift; sourceTree = "<group>"; };
+		6B5C0C411A3B42C400EB3154 /* TMHomeWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMHomeWireframe.swift; sourceTree = "<group>"; };
+		6B5C0C431A3B42DF00EB3154 /* TMMessageListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMMessageListViewController.swift; sourceTree = "<group>"; };
+		6B5C0C451A3B431A00EB3154 /* TMFollowListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMFollowListViewController.swift; sourceTree = "<group>"; };
+		6B5C0C471A3B439F00EB3154 /* TMHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMHomeViewController.swift; sourceTree = "<group>"; };
+		6B5C0C4E1A3B44D600EB3154 /* TMFollowListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMFollowListInteractor.swift; sourceTree = "<group>"; };
+		6B5C0C501A3B44E900EB3154 /* TMFollowListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMFollowListPresenter.swift; sourceTree = "<group>"; };
+		6B5C0C521A3B44FC00EB3154 /* TMMessageListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMMessageListPresenter.swift; sourceTree = "<group>"; };
+		6B5C0C541A3B450B00EB3154 /* TMMessageListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMMessageListInteractor.swift; sourceTree = "<group>"; };
+		6B5C0C561A3B451800EB3154 /* TMHomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMHomePresenter.swift; sourceTree = "<group>"; };
+		6B5C0C581A3B452700EB3154 /* TMHomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMHomeInteractor.swift; sourceTree = "<group>"; };
+		6BFF9FE01AA21863002F67A0 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		6BFF9FE21AA21885002F67A0 /* TMShopListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMShopListViewController.swift; sourceTree = "<group>"; };
+		6BFF9FE41AA218F7002F67A0 /* TMShopListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMShopListPresenter.swift; sourceTree = "<group>"; };
+		6BFF9FE61AA21913002F67A0 /* TMShopListWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMShopListWireframe.swift; sourceTree = "<group>"; };
+		6BFF9FEA1AA21BDE002F67A0 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		6BFF9FFF1AA21DF3002F67A0 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		6BFFA0011AA221F1002F67A0 /* SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyJSON.xcodeproj; path = SwiftyJSON/SwiftyJSON.xcodeproj; sourceTree = "<group>"; };
+		6BFFA0161AA2B2A1002F67A0 /* TMNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMNetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +198,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BFFA0121AA2224C002F67A0 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +212,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B1CB4D41A3C4A7400E3243A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6B1CB4D51A3C4A7400E3243A /* Kit */,
+				6BFF9FFE1AA21DE3002F67A0 /* Manager */,
+				6B1CB4D81A3C4A7400E3243A /* Store */,
+				6B1CB4D91A3C4A7400E3243A /* View */,
+				6B1CB4DB1A3C4A7400E3243A /* wireframe */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6B1CB4D51A3C4A7400E3243A /* Kit */ = {
+			isa = PBXGroup;
+			children = (
+				6B272C1C1A471CE5007351C0 /* Model */,
+				6B1CB4E11A3C4AF200E3243A /* UI */,
+				6B1CB4D61A3C4A7400E3243A /* Extension */,
+			);
+			path = Kit;
+			sourceTree = "<group>";
+		};
+		6B1CB4D61A3C4A7400E3243A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6B1CB4D81A3C4A7400E3243A /* Store */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		6B1CB4D91A3C4A7400E3243A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B1CB4DA1A3C4A7400E3243A /* BaseNavigationController.swift */,
+				6BFF9FE01AA21863002F67A0 /* BaseTableViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B1CB4DB1A3C4A7400E3243A /* wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				6B1CB4DC1A3C4A7400E3243A /* BaseWireframe.swift */,
+				6B1CB4DD1A3C4A7400E3243A /* TMRootWireframe.swift */,
+			);
+			path = wireframe;
+			sourceTree = "<group>";
+		};
+		6B1CB4E11A3C4AF200E3243A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6B272C191A471BD7007351C0 /* AnimatedTabBarController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		6B272C1C1A471CE5007351C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B272C1D1A471CFB007351C0 /* TableDataSource.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B321E581AA307890089E785 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				6B321E591AA307890089E785 /* TMShopListNetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		6B5C0BC41A3B225F00EB3154 = {
 			isa = PBXGroup;
 			children = (
+				6BFF9FEA1AA21BDE002F67A0 /* Alamofire.xcodeproj */,
+				6BFFA0011AA221F1002F67A0 /* SwiftyJSON.xcodeproj */,
 				6B5C0BCF1A3B225F00EB3154 /* ThinMe */,
 				6B5C0BE51A3B226000EB3154 /* ThinMeTests */,
 				6B5C0BCE1A3B225F00EB3154 /* Products */,
@@ -77,8 +313,7 @@
 		6B5C0BCF1A3B225F00EB3154 /* ThinMe */ = {
 			isa = PBXGroup;
 			children = (
-				6B5C0BD21A3B225F00EB3154 /* AppDelegate.swift */,
-				6B5C0BD41A3B225F00EB3154 /* ViewController.swift */,
+				6B5C0BF21A3B248B00EB3154 /* Classes */,
 				6B5C0BD61A3B225F00EB3154 /* Main.storyboard */,
 				6B5C0BD91A3B225F00EB3154 /* Images.xcassets */,
 				6B5C0BDB1A3B225F00EB3154 /* LaunchScreen.xib */,
@@ -112,6 +347,472 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6B5C0BF21A3B248B00EB3154 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6B1CB4D41A3C4A7400E3243A /* Common */,
+				6B5C0BF91A3B248B00EB3154 /* Modules */,
+				6B5C0BF31A3B248B00EB3154 /* AppDelegate.swift */,
+				6B1CB4D31A3C49B700E3243A /* Demo.playground */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6B5C0BF91A3B248B00EB3154 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0C041A3B248B00EB3154 /* Home */,
+				6B5C0C0E1A3B248B00EB3154 /* Message */,
+				6B5C0BFA1A3B248B00EB3154 /* Follow */,
+				6B5C0C2B1A3B422000EB3154 /* Profile */,
+				6BFF9FD61AA21837002F67A0 /* ShopList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		6B5C0BFA1A3B248B00EB3154 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0BFB1A3B248B00EB3154 /* Application Logic */,
+				6B5C0BFF1A3B248B00EB3154 /* Module Interface */,
+				6B5C0C001A3B248B00EB3154 /* User Interface */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		6B5C0BFB1A3B248B00EB3154 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0BFC1A3B248B00EB3154 /* Interactor */,
+				6B5C0BFD1A3B248B00EB3154 /* Manager */,
+				6B5C0BFE1A3B248B00EB3154 /* Model */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		6B5C0BFC1A3B248B00EB3154 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0C4E1A3B44D600EB3154 /* TMFollowListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B5C0BFD1A3B248B00EB3154 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		6B5C0BFE1A3B248B00EB3154 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B5C0BFF1A3B248B00EB3154 /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		6B5C0C001A3B248B00EB3154 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0C011A3B248B00EB3154 /* Presenter */,
+				6B5C0C021A3B248B00EB3154 /* View */,
+				6B5C0C031A3B248B00EB3154 /* Wireframe */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		6B5C0C011A3B248B00EB3154 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0C501A3B44E900EB3154 /* TMFollowListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B5C0C021A3B248B00EB3154 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0C451A3B431A00EB3154 /* TMFollowListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B5C0C031A3B248B00EB3154 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0C3D1A3B429100EB3154 /* TMFollowListWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		6B5C0C041A3B248B00EB3154 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0C051A3B248B00EB3154 /* Application Logic */,
+				6B5C0C091A3B248B00EB3154 /* Module Interface */,
+				6B5C0C0A1A3B248B00EB3154 /* User Interface */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6B5C0C051A3B248B00EB3154 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0C061A3B248B00EB3154 /* Interactor */,
+				6B5C0C071A3B248B00EB3154 /* Manager */,
+				6B5C0C081A3B248B00EB3154 /* Model */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		6B5C0C061A3B248B00EB3154 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0C581A3B452700EB3154 /* TMHomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B5C0C071A3B248B00EB3154 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		6B5C0C081A3B248B00EB3154 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B5C0C091A3B248B00EB3154 /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		6B5C0C0A1A3B248B00EB3154 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0C0B1A3B248B00EB3154 /* Presenter */,
+				6B5C0C0C1A3B248B00EB3154 /* View */,
+				6B5C0C0D1A3B248B00EB3154 /* Wireframe */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		6B5C0C0B1A3B248B00EB3154 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0C561A3B451800EB3154 /* TMHomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B5C0C0C1A3B248B00EB3154 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0C471A3B439F00EB3154 /* TMHomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B5C0C0D1A3B248B00EB3154 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0C411A3B42C400EB3154 /* TMHomeWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		6B5C0C0E1A3B248B00EB3154 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0C0F1A3B248B00EB3154 /* Application Logic */,
+				6B5C0C131A3B248B00EB3154 /* Module Interface */,
+				6B5C0C141A3B248B00EB3154 /* User Interface */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		6B5C0C0F1A3B248B00EB3154 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0C101A3B248B00EB3154 /* Interactor */,
+				6B5C0C111A3B248B00EB3154 /* Manager */,
+				6B5C0C121A3B248B00EB3154 /* Model */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		6B5C0C101A3B248B00EB3154 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0C541A3B450B00EB3154 /* TMMessageListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B5C0C111A3B248B00EB3154 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		6B5C0C121A3B248B00EB3154 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B5C0C131A3B248B00EB3154 /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		6B5C0C141A3B248B00EB3154 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0C151A3B248B00EB3154 /* Presenter */,
+				6B5C0C161A3B248B00EB3154 /* View */,
+				6B5C0C171A3B248B00EB3154 /* Wireframe */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		6B5C0C151A3B248B00EB3154 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0C521A3B44FC00EB3154 /* TMMessageListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B5C0C161A3B248B00EB3154 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0C431A3B42DF00EB3154 /* TMMessageListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B5C0C171A3B248B00EB3154 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0C3F1A3B42B400EB3154 /* TMMessageListWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		6B5C0C2B1A3B422000EB3154 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0C2C1A3B422000EB3154 /* Application Logic */,
+				6B5C0C301A3B422000EB3154 /* Module Interface */,
+				6B5C0C311A3B422000EB3154 /* User Interface */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		6B5C0C2C1A3B422000EB3154 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0C2D1A3B422000EB3154 /* Interactor */,
+				6B5C0C2E1A3B422000EB3154 /* Manager */,
+				6B5C0C2F1A3B422000EB3154 /* Model */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		6B5C0C2D1A3B422000EB3154 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0C391A3B425500EB3154 /* TMProfileInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6B5C0C2E1A3B422000EB3154 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		6B5C0C2F1A3B422000EB3154 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B5C0C301A3B422000EB3154 /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		6B5C0C311A3B422000EB3154 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0C321A3B422000EB3154 /* Presenter */,
+				6B5C0C331A3B422000EB3154 /* View */,
+				6B5C0C351A3B422000EB3154 /* Wireframe */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		6B5C0C321A3B422000EB3154 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0C3B1A3B426600EB3154 /* TMProfilePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6B5C0C331A3B422000EB3154 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0C341A3B422000EB3154 /* TMProfileViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B5C0C351A3B422000EB3154 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C0C361A3B422000EB3154 /* TMProfileWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		6BFF9FD61AA21837002F67A0 /* ShopList */ = {
+			isa = PBXGroup;
+			children = (
+				6BFF9FD71AA21837002F67A0 /* Application Logic */,
+				6BFF9FDB1AA21837002F67A0 /* Module Interface */,
+				6BFF9FDC1AA21837002F67A0 /* User Interface */,
+			);
+			path = ShopList;
+			sourceTree = "<group>";
+		};
+		6BFF9FD71AA21837002F67A0 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				6BFF9FD81AA21837002F67A0 /* Interactor */,
+				6B321E581AA307890089E785 /* Manager */,
+				6BFF9FDA1AA21837002F67A0 /* Model */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		6BFF9FD81AA21837002F67A0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				6B321E401AA2F1880089E785 /* TMShopListInteractor.swift */,
+				6B321E481AA2F2300089E785 /* TMShopListInteractorIO.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6BFF9FDA1AA21837002F67A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B321E461AA2F2220089E785 /* TMShopModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6BFF9FDB1AA21837002F67A0 /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+				6B321E441AA2F1EC0089E785 /* TMShopListModuleInterface.swift */,
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		6BFF9FDC1AA21837002F67A0 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				6BFF9FDD1AA21837002F67A0 /* Presenter */,
+				6BFF9FDE1AA21837002F67A0 /* View */,
+				6BFF9FDF1AA21837002F67A0 /* Wireframe */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		6BFF9FDD1AA21837002F67A0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6BFF9FE41AA218F7002F67A0 /* TMShopListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6BFF9FDE1AA21837002F67A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6BFF9FE21AA21885002F67A0 /* TMShopListViewController.swift */,
+				6B321E421AA2F1AE0089E785 /* TMShopListViewInterface.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6BFF9FDF1AA21837002F67A0 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				6BFF9FE61AA21913002F67A0 /* TMShopListWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		6BFF9FEB1AA21BDE002F67A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BFF9FF21AA21BDE002F67A0 /* Alamofire.framework */,
+				6BFF9FF41AA21BDE002F67A0 /* Alamofire.framework */,
+				6BFF9FF61AA21BDE002F67A0 /* Alamofire iOS Tests.xctest */,
+				6BFF9FF81AA21BDE002F67A0 /* Alamofire OSX Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BFF9FFE1AA21DE3002F67A0 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				6BFF9FFF1AA21DF3002F67A0 /* NetworkManager.swift */,
+				6BFFA0161AA2B2A1002F67A0 /* TMNetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		6BFFA0021AA221F1002F67A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BFFA0091AA221F1002F67A0 /* SwiftyJSON.framework */,
+				6BFFA00B1AA221F1002F67A0 /* SwiftyJSONTests.xctest */,
+				6BFFA00D1AA221F1002F67A0 /* SwiftyJSON.framework */,
+				6BFFA00F1AA221F1002F67A0 /* SwiftyJSON OSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +823,13 @@
 				6B5C0BC91A3B225F00EB3154 /* Sources */,
 				6B5C0BCA1A3B225F00EB3154 /* Frameworks */,
 				6B5C0BCB1A3B225F00EB3154 /* Resources */,
+				6BFF9FFB1AA21C9B002F67A0 /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6BFF9FFA1AA21C47002F67A0 /* PBXTargetDependency */,
+				6BFFA0151AA2224C002F67A0 /* PBXTargetDependency */,
 			);
 			name = ThinMe;
 			productName = ThinMe;
@@ -156,6 +860,7 @@
 		6B5C0BC51A3B225F00EB3154 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TM;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = ZhangMing;
 				TargetAttributes = {
@@ -179,6 +884,16 @@
 			mainGroup = 6B5C0BC41A3B225F00EB3154;
 			productRefGroup = 6B5C0BCE1A3B225F00EB3154 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6BFF9FEB1AA21BDE002F67A0 /* Products */;
+					ProjectRef = 6BFF9FEA1AA21BDE002F67A0 /* Alamofire.xcodeproj */;
+				},
+				{
+					ProductGroup = 6BFFA0021AA221F1002F67A0 /* Products */;
+					ProjectRef = 6BFFA0011AA221F1002F67A0 /* SwiftyJSON.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6B5C0BCC1A3B225F00EB3154 /* ThinMe */,
@@ -186,6 +901,65 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6BFF9FF21AA21BDE002F67A0 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 6BFF9FF11AA21BDE002F67A0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6BFF9FF41AA21BDE002F67A0 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 6BFF9FF31AA21BDE002F67A0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6BFF9FF61AA21BDE002F67A0 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 6BFF9FF51AA21BDE002F67A0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6BFF9FF81AA21BDE002F67A0 /* Alamofire OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire OSX Tests.xctest";
+			remoteRef = 6BFF9FF71AA21BDE002F67A0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6BFFA0091AA221F1002F67A0 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 6BFFA0081AA221F1002F67A0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6BFFA00B1AA221F1002F67A0 /* SwiftyJSONTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftyJSONTests.xctest;
+			remoteRef = 6BFFA00A1AA221F1002F67A0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6BFFA00D1AA221F1002F67A0 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 6BFFA00C1AA221F1002F67A0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6BFFA00F1AA221F1002F67A0 /* SwiftyJSON OSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyJSON OSXTests.xctest";
+			remoteRef = 6BFFA00E1AA221F1002F67A0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6B5C0BCB1A3B225F00EB3154 /* Resources */ = {
@@ -212,8 +986,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B5C0BD51A3B225F00EB3154 /* ViewController.swift in Sources */,
-				6B5C0BD31A3B225F00EB3154 /* AppDelegate.swift in Sources */,
+				6B5C0C3A1A3B425500EB3154 /* TMProfileInteractor.swift in Sources */,
+				6B5C0C531A3B44FC00EB3154 /* TMMessageListPresenter.swift in Sources */,
+				6B272C1A1A471BD7007351C0 /* AnimatedTabBarController.swift in Sources */,
+				6B321E471AA2F2220089E785 /* TMShopModel.swift in Sources */,
+				6B5C0C551A3B450B00EB3154 /* TMMessageListInteractor.swift in Sources */,
+				6B5C0C461A3B431A00EB3154 /* TMFollowListViewController.swift in Sources */,
+				6B5C0C571A3B451800EB3154 /* TMHomePresenter.swift in Sources */,
+				6B5C0C481A3B439F00EB3154 /* TMHomeViewController.swift in Sources */,
+				6B321E451AA2F1EC0089E785 /* TMShopListModuleInterface.swift in Sources */,
+				6B5C0C3E1A3B429100EB3154 /* TMFollowListWireframe.swift in Sources */,
+				6B5C0C591A3B452700EB3154 /* TMHomeInteractor.swift in Sources */,
+				6B321E5A1AA307890089E785 /* TMShopListNetworkManager.swift in Sources */,
+				6B272C1E1A471CFB007351C0 /* TableDataSource.swift in Sources */,
+				6B5C0C3C1A3B426600EB3154 /* TMProfilePresenter.swift in Sources */,
+				6BFF9FE11AA21863002F67A0 /* BaseTableViewController.swift in Sources */,
+				6B5C0C511A3B44E900EB3154 /* TMFollowListPresenter.swift in Sources */,
+				6BFF9FE51AA218F7002F67A0 /* TMShopListPresenter.swift in Sources */,
+				6B5C0C401A3B42B400EB3154 /* TMMessageListWireframe.swift in Sources */,
+				6B5C0C4F1A3B44D600EB3154 /* TMFollowListInteractor.swift in Sources */,
+				6BFFA0171AA2B2A1002F67A0 /* TMNetworkManager.swift in Sources */,
+				6BFF9FE31AA21885002F67A0 /* TMShopListViewController.swift in Sources */,
+				6B5C0C371A3B422000EB3154 /* TMProfileViewController.swift in Sources */,
+				6B5C0C381A3B422000EB3154 /* TMProfileWireframe.swift in Sources */,
+				6BFF9FE71AA21913002F67A0 /* TMShopListWireframe.swift in Sources */,
+				6B1CB4DE1A3C4A7400E3243A /* BaseNavigationController.swift in Sources */,
+				6B1CB4E01A3C4A7400E3243A /* TMRootWireframe.swift in Sources */,
+				6B1CB4DF1A3C4A7400E3243A /* BaseWireframe.swift in Sources */,
+				6BFFA0001AA21DF3002F67A0 /* NetworkManager.swift in Sources */,
+				6B5C0C221A3B248B00EB3154 /* AppDelegate.swift in Sources */,
+				6B321E411AA2F1880089E785 /* TMShopListInteractor.swift in Sources */,
+				6B5C0C441A3B42DF00EB3154 /* TMMessageListViewController.swift in Sources */,
+				6B321E491AA2F2300089E785 /* TMShopListInteractorIO.swift in Sources */,
+				6B321E431AA2F1AE0089E785 /* TMShopListViewInterface.swift in Sources */,
+				6B5C0C421A3B42C400EB3154 /* TMHomeWireframe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +1038,16 @@
 			isa = PBXTargetDependency;
 			target = 6B5C0BCC1A3B225F00EB3154 /* ThinMe */;
 			targetProxy = 6B5C0BE31A3B225F00EB3154 /* PBXContainerItemProxy */;
+		};
+		6BFF9FFA1AA21C47002F67A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 6BFF9FF91AA21C47002F67A0 /* PBXContainerItemProxy */;
+		};
+		6BFFA0151AA2224C002F67A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftyJSON iOS";
+			targetProxy = 6BFFA0141AA2224C002F67A0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -338,7 +1154,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = ThinMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -348,7 +1166,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = ThinMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -407,6 +1227,7 @@
 				6B5C0BEE1A3B226000EB3154 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B5C0BEF1A3B226000EB3154 /* Build configuration list for PBXNativeTarget "ThinMeTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +1236,7 @@
 				6B5C0BF11A3B226000EB3154 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
